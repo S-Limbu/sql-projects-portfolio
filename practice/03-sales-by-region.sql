@@ -1,11 +1,19 @@
 -- 🧠 Problem: Calculate total sales amount by region in the last 12 months.
--- 📚 Concepts: GROUP BY, WHERE, SUM(), DATE functions
+-- 📚 Concepts: 
 -- 💡 Why this matters: Regional breakdowns help evaluate area-specific performance.
 
-SELECT region, SUM(sales_amount) AS total_sales
-FROM sales
-WHERE sale_date >= DATE_SUB(CURRENT_DATE, INTERVAL 12 MONTH)
-GROUP BY region;
+-- 🔄 1. Drop existing table to avoid conflicts
+
+
+-- 🧱 2. Create the table schema
+
+
+
+-- 📊 3. Insert sample/mock data
+
+
+
+-- 🔍 4. Final query
 
 -- 🖼️ Screenshot: screenshots/03-sales-by-region-result.png
 -- 📝 Output: Sales totals per region over the past year.
