@@ -1,5 +1,5 @@
 -- 🧠 Problem: 
--- 📚 Concepts: 
+-- 📚 Concepts: CTE + COUNT + GROUP BY
 -- 💡 Why this matters: 
 
 -- 🔄 1. Drop existing table to avoid conflicts
@@ -30,5 +30,5 @@ FROM order_counts
 WHERE num_orders > 1;
 
 
--- 🖼️ Screenshot: screenshots/09-repeat-customers-results.png
+-- 🖼️ Screenshot: screenshots/09-repeat-customers-result.png
 -- 📝 Output: 
