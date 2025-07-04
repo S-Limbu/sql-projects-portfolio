@@ -8,14 +8,22 @@ DROP TABLE IF EXISTS employees;
 
 -- 🧱 2. Create the table schema
 
-
+CREATE TABLE orders (
+  id INT,
+  customer_id INT,
+  amount DECIMAL
+);
 
 -- 📊 3. Insert sample/mock data
 
+INSERT INTO orders VALUES
+(1, 1, 450), (2, 2, 600), (3, 3, 800);
 
 -- 🔍 4. Final query
 
+SELECT *,
+       CASE WHEN amount > 500 THEN 'High' ELSE 'Normal' END AS value_flag
+FROM orders;
 
-
--- 🖼️ Screenshot: screenshots/0.png
+-- 🖼️ Screenshot: screenshots/11-flag-value-orders-results.png
 -- 📝 Output: 
