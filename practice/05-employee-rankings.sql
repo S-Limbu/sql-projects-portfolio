@@ -2,6 +2,8 @@
 -- 📚 Concepts: Window Functions (RANK), ORDER BY
 -- 💡 Why this matters: Salary evaluation to see who's getting paid however much.
 
+-- 🔄 1. Drop existing table to avoid conflicts
+
 DROP TABLE IF EXISTS sales;
 
 -- 🧱 2. Create the table schema
