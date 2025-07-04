@@ -1,5 +1,5 @@
 -- 🧠 Problem: 
--- 📚 Concepts: 
+-- 📚 Concepts: CASE + ELSE
 -- 💡 Why this matters: 
 
 -- 🔄 1. Drop existing table to avoid conflicts
@@ -25,5 +25,5 @@ SELECT *,
        CASE WHEN amount > 500 THEN 'High' ELSE 'Normal' END AS value_flag
 FROM orders;
 
--- 🖼️ Screenshot: screenshots/11-flag-value-orders-results.png
+-- 🖼️ Screenshot: screenshots/11-flag-value-orders-result.png
 -- 📝 Output: 
