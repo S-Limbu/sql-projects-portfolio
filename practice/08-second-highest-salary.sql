@@ -1,5 +1,5 @@
 -- 🧠 Problem: Find the second highest salary.
--- 📚 Concepts: DISTINCT, ORDER BY, LIMIT, OFFSET
+-- 📚 Concepts: DISTINCT + ORDER BY + LIMIT + OFFSET
 -- 💡 Why this matters: Return second-highest salary (if exists)
 
 -- 🔄 1. Drop existing table to avoid conflicts
