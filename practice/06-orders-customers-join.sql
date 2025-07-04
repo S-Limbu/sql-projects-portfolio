@@ -1,14 +1,39 @@
--- 🧠 Problem: Get full customer names and their order totals.
--- 📚 Concepts: INNER JOIN, GROUP BY, Aggregation
+-- 🧠 Problem: Join orders with customer names.
+-- 📚 Concepts: JOINS
 -- 💡 Why this matters: Real-world reporting often requires combining data from multiple tables.
 
-SELECT
-  c.customer_id,
-  CONCAT(c.first_name, ' ', c.last_name) AS full_name,
-  SUM(o.amount) AS total_spent
-FROM customers c
-JOIN orders o ON c.customer_id = o.customer_id
-GROUP BY c.customer_id, full_name;
+-- 🔄 1. Drop existing table to avoid conflicts
+
+DROP TABLE IF EXISTS sales;
+
+-- 🧱 2. Create the table schema
+
+CREATE TABLE customers (
+  id INT,
+  name TEXT
+);
+
+CREATE TABLE orders (
+  id INT,
+  customer_id INT,
+  amount DECIMAL
+);
+
+-- 📊 3. Insert sample/mock data
+
+INSERT INTO customers VALUES
+(1, 'Alice'), (2, 'Bob'), (3, 'Charlie');
+
+INSERT INTO orders VALUES
+(101, 1, 200),
+(102, 2, 300),
+(103, 3, 150);
+
+-- 🔍 4. Final query
+
+SELECT o.id AS order_id, c.name AS customer_name, o.amount
+FROM orders o
+JOIN customers c ON o.customer_id = c.id;
 
 -- 🖼️ Screenshot: screenshots/06-orders-customers-join-result.png
--- 📝 Output: Customer full names with their total spend.
+-- 📝 Output: Customer names with their total spend.
