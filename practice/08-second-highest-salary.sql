@@ -28,5 +28,5 @@ FROM employees
 ORDER BY salary DESC
 OFFSET 1 LIMIT 1;
 
--- 🖼️ Screenshot: screenshots/08-second-highest-salary-results.png
+-- 🖼️ Screenshot: screenshots/08-second-highest-salary-result.png
 -- 📝 Output: 
