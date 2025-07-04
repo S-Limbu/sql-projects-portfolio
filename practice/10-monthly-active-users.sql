@@ -1,5 +1,5 @@
 -- 🧠 Problem: 
--- 📚 Concepts: 
+-- 📚 Concepts:  DATE_TRUNC + COUNT DISTINCT + GROUP BY
 -- 💡 Why this matters: 
 
 -- 🔄 1. Drop existing table to avoid conflicts
@@ -30,5 +30,5 @@ FROM logins
 GROUP BY month
 ORDER BY month;
 
--- 🖼️ Screenshot: screenshots/10-monthly-active-users-results.png
+-- 🖼️ Screenshot: screenshots/10-monthly-active-users-result.png
 -- 📝 Output: 
