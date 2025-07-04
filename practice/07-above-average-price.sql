@@ -1,5 +1,5 @@
 -- 🧠 Problem: Find products priced above average
--- 📚 Concepts: 
+-- 📚 Concepts: SUBQUERY + AVG
 -- 💡 Why this matters: Shows products that are listed more expensive than average which can be used for marketing fields.
 
 -- 🔄 1. Drop existing table to avoid conflicts
