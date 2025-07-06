@@ -1,0 +1,50 @@
+-- 🧠 Problem: 
+-- 📚 Concepts: CTE + MAX + COUNT + GROUP BY + CASE WHEN + ELSE
+-- 💡 Why this matters: 
+
+-- 🔄 1. Drop existing table to avoid conflicts
+
+DROP TABLE IF EXISTS orders;
+
+-- 🧱 2. Create the table schema
+
+CREATE TABLE orders (
+  order_id INT,
+  customer_id INT,
+  order_date DATE,
+  amount DECIMAL
+);
+
+-- 📊 3. Insert sample/mock data
+
+INSERT INTO orders VALUES
+(1, 101, '2024-01-01', 100),
+(2, 102, '2024-01-15', 200),
+(3, 101, '2024-02-01', 150),
+(4, 103, '2024-03-01', 300);
+
+-- 🔍 4. Final query
+
+WITH rfm AS (
+SELECT 
+customer_id,
+MAX(order_date) AS last_order,
+COUNT(*) AS frequency,
+SUM(amount) AS monetary
+FROM orders
+GROUP BY customer_id
+)
+SELECT 
+customer_id,
+CURRENT_DATE - last_order AS recency_days,
+frequency,
+monetary,
+CASE 
+WHEN frequency >= 2 AND monetary > 200 THEN 'Top Customer'
+WHEN frequency = 1 AND monetary < 150 THEN 'Low Value'
+ELSE 'Regular'
+END AS segment
+FROM rfm;
+
+-- 🖼️ Screenshot: screenshots/25-rfm-segmentation-result.png
+-- 📝 Output: 
