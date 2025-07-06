@@ -1,8 +1,13 @@
 -- 🧠 Problem / Business Scenario: The Sales Team at a growing e-commerce company wants to identify the top 2 
 highest-spending customers, so that they can be invited to an upcoming loyalty rewards program.
+  
 -- 📚 Concepts: JOINS + GROUP BY + ORDER BY + LIMIT
--- 💡 Why this matters: Identifying top customers is key for sales strategy and customer retention.
-
+  
+-- 💡 Why this matters: Loyal, high-value customers are crucial for long-term revenue. Understanding who they are helps the company:
+  - Personalize marketing efforts.
+  - Offer exclusive incentives. 
+  - Improve customer retention / loyalty.
+  
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS orders;
