@@ -1,25 +1,8 @@
 -- 🧠 Problem: Select all employees from the employees table.
--- 📚 Concepts: 
--- 💡 Why this matters: 
+-- 📚 Concepts: SELECT 
+-- 💡 Why this matters: Shows understanding of basic SQL.
 
 SELECT *
 FROM employees;
 
--- 🔄 1. Drop existing table to avoid conflicts
-
-DROP TABLE IF EXISTS 
-
--- 🧱 2. Create the table schema
-
-
-
--- 📊 3. Insert sample/mock data
-
-
-
--- 🔍 4. Final query
-
-
-
--- 🖼️ Screenshot: screenshots/01-simple-select-result.png
--- 📝 Output: 
+-- 📝 Output: Every employee is selected from said table.
