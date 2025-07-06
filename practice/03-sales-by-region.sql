@@ -4,9 +4,9 @@ to inform where it will be best to allocate additional marketing budget for the 
 -📚 Concepts: GROUP BY + ORDER BY
   
 -💡 Why this matters: Regional breakdowns helps evaluate area-specific performance:
-  - Identify strong-performing regions for potential expansion.
-  - Detect any underperforming areas that may need support.
-  - Guide budget allocation, staffing, and promotions more effectively.
+  - Identifies strong-performing regions for potential expansion.
+  - Detects any underperforming areas that may need support.
+  - Guides budget allocation, staffing, and promotions more effectively.
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
