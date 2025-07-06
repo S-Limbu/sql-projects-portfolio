@@ -1,0 +1,42 @@
+-- 🧠 Problem: 
+-- 📚 Concepts: JOIN + SUM + GROUP BY + ORDER BY
+-- 💡 Why this matters: 
+
+-- 🔄 1. Drop existing table to avoid conflicts
+
+DROP TABLE IF EXISTS signups;
+DROP TABLE IF EXISTS activity;
+
+-- 🧱 2. Create the table schema
+
+CREATE TABLE users (
+  user_id INT,
+  source TEXT
+);
+
+CREATE TABLE purchases (
+  purchase_id INT,
+  user_id INT,
+  amount DECIMAL
+);
+
+-- 📊 3. Insert sample/mock data
+
+INSERT INTO users VALUES
+(1, 'Organic'), (2, 'Ads'), (3, 'Email'), (4, 'Ads');
+
+INSERT INTO purchases VALUES
+(1, 1, 100), (2, 2, 150), (3, 3, 200), (4, 4, 50);
+
+-- 🔍 4. Final query
+
+SELECT 
+u.source,
+SUM(p.amount) AS total_revenue
+FROM purchases p
+JOIN users u ON p.user_id = u.user_id
+GROUP BY u.source
+ORDER BY total_revenue DESC;
+
+-- 🖼️ Screenshot: screenshots/23-revenue-by-marketing-source-result.png
+-- 📝 Output: 
