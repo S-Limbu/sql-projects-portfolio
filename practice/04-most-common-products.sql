@@ -1,4 +1,5 @@
--- 🧠 Problem: Find the most commonly purchased products.
+-- 🧠 Problem / Business Scenario: The Product Team wants to identify the most frequently sold products to better nderstand
+which items performing well and should be promoted more heavily or stocked up.
 -- 📚 Concepts: COUNT + GROUP BY + ORDER BY
 -- 💡 Why this matters: Helps businesses know which products are most popular.
 
