@@ -1,10 +1,13 @@
-- 🧠 Problem: Join orders with customer names.
+- 🧠 Problem: The Customer Success Team needs a report that shows each order along with the customer name who placed it,
+  so they can prepare for upcoming support calls and personalize communication.
   
 - 📚 Concepts: JOINS
   
-- 💡 Why this matters: Real-world reporting often requires combining data from multiple tables.
-  - 
-
+- 💡 Why this matters: Real-world reporting often requires combining data from multiple tables, it helps teams;
+  - Understand which customer made which purchases.
+  - Helps track customers orders by client name (etc).
+  - Provides context during customer service inquries.
+    
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS employees;
