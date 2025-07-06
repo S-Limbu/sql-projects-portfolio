@@ -1,6 +1,9 @@
--- 🧠 Problem: Join orders with customer names.
--- 📚 Concepts: JOINS
--- 💡 Why this matters: Real-world reporting often requires combining data from multiple tables.
+- 🧠 Problem: Join orders with customer names.
+  
+- 📚 Concepts: JOINS
+  
+- 💡 Why this matters: Real-world reporting often requires combining data from multiple tables.
+  - 
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
