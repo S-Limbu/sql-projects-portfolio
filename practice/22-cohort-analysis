@@ -1,0 +1,52 @@
+-- 🧠 Problem: 
+-- 📚 Concepts: CTE + DATE_TRUNC + JOIN + COUNT 
+-- 💡 Why this matters: 
+
+-- 🔄 1. Drop existing table to avoid conflicts
+
+DROP TABLE IF EXISTS customers;
+
+-- 🧱 2. Create the table schema
+
+CREATE TABLE signups (
+  user_id INT,
+  signup_date DATE
+);
+
+CREATE TABLE activity (
+  user_id INT,
+  activity_date DATE
+);
+
+-- 📊 3. Insert sample/mock data
+
+INSERT INTO signups VALUES
+(1, '2024-01-01'),
+(2, '2024-01-15'),
+(3, '2024-02-01');
+
+INSERT INTO activity VALUES
+(1, '2024-01-10'), (1, '2024-02-10'),
+(2, '2024-01-20'),
+(3, '2024-02-05'), (3, '2024-03-10');
+
+-- 🔍 4. Final query
+
+WITH cohorts AS (
+SELECT 
+s.user_id,
+DATE_TRUNC('month', s.signup_date) AS cohort_month,
+DATE_TRUNC('month', a.activity_date) AS active_month
+FROM signups s
+JOIN activity a ON s.user_id = a.user_id
+)
+SELECT 
+cohort_month,
+active_month,
+COUNT(DISTINCT user_id) AS active_users
+FROM cohorts
+GROUP BY cohort_month, active_month
+ORDER BY cohort_month, active_month;
+
+-- 🖼️ Screenshot: screenshots/21-cohort-analysis-result.png
+-- 📝 Output: 
