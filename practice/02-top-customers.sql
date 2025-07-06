@@ -4,9 +4,9 @@ highest-spending customers, so that they can be invited to an upcoming loyalty r
 -📚 Concepts: JOINS + GROUP BY + ORDER BY + LIMIT
   
 -💡 Why this matters: Loyal, high-value customers are crucial for long-term revenue. Understanding who they are helps the company:
-  - Personalize marketing efforts.
-  - Offer exclusive incentives. 
-  - Improve customer retention / loyalty.
+  - Personalized marketing efforts.
+  - Offers exclusive incentives. 
+  - Improves customer retention / loyalty.
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
