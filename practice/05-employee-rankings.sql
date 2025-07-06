@@ -1,7 +1,11 @@
--- 🧠 Problem: Rank employees based on total salary.
--- 📚 Concepts: Window Functions (RANK), ORDER BY
--- 💡 Why this matters: Salary evaluation to see who's getting paid however much.
-
+-🧠 Problem / Business Scenario: HR is conducting a salary analysis to identify where employees rank in terms of salary.
+-📚 Concepts: Window Functions (RANK) + ORDER BY
+  
+-💡 Why this matters: Ranking employees based on salary allows;
+ - Fair and transparent compensation planning.
+ - Identification of top earners for potential leadership pipelines.
+ - Spotting outliers (underpaid or overpaid roles) to correct any unfair salaries.
+   
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS sales;
@@ -17,10 +21,15 @@ CREATE TABLE employees (
 -- 📊 3. Insert sample/mock data
 
 INSERT INTO employees VALUES
-(1, 'Alice', 70000),
-(2, 'Bob', 90000),
-(3, 'Charlie', 90000),
-(4, 'Dana', 60000);
+(1, 'Sam', 70000),
+(2, 'Rob', 90000),
+(3, 'Melissa', 90000),
+(4, 'Diana', 60000),
+(5, 'Michael', 60000),
+(6, 'Cane', 85000),
+(7, 'Bob', 86700),
+(8, 'Daniel', 40400),
+(9, 'Tyler', 50000);
 
 -- 🔍 4. Final query
 
