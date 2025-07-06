@@ -22,12 +22,12 @@ CREATE TABLE sales (
 -- 📊 3. Insert sample/mock data
 
 INSERT INTO sales VALUES
-(1, 'Phone'),
-(2, 'Laptop'),
-(3, 'Phone'),
-(4, 'Tablet'),
-(5, 'Phone'),
-(6, 'Laptop');
+(1, 'iPhone'),
+(2, 'Samsung'),
+(3, 'iPhone'),
+(4, 'iPhone'),
+(5, 'Samsung'),
+(6, 'Huawei');
 
 -- 🔍 4. Final query
 
