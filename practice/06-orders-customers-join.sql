@@ -41,5 +41,4 @@ SELECT o.id AS order_id, c.name AS customer_name, o.amount
 FROM orders o
 JOIN customers c ON o.customer_id = c.id;
 
--- 🖼️ Screenshot: screenshots/06-orders-customers-join-result.png
--- 📝 Output: Customer names with their total spend.
+-- 📝 Output: Customer names with their total spend are joined.
