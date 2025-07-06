@@ -1,4 +1,5 @@
--- 🧠 Problem: Identify the top 2 customers that spend the highest money.
+-- 🧠 Problem / Business Scenario: The Sales Team at a growing e-commerce company wants to identify the top 2 
+highest-spending customers, so that they can be invited to an upcoming loyalty rewards program.
 -- 📚 Concepts: JOINS + GROUP BY + ORDER BY + LIMIT
 -- 💡 Why this matters: Identifying top customers is key for sales strategy and customer retention.
 
@@ -23,7 +24,7 @@ CREATE TABLE customers (
 -- 📊 3. Insert sample/mock data
 
 INSERT INTO customers VALUES
-(1, 'Alice'), (2, 'Bob'), (3, 'Charlie');
+(1, 'Rob'), (2, 'Kim'), (3, 'Cam');
 
 INSERT INTO orders VALUES
 (101, 1, 100),
@@ -42,4 +43,4 @@ ORDER BY total_spent DESC
 LIMIT 2;
 
 -- 🖼️ Screenshot: screenshots/02-top-customers-result.png
--- 📝 Output: Received the top 2 customers that spend the most money.
+-- 📝 Output: Received the top 2 customers that spend the most money and are eligable for the loyalty program.
