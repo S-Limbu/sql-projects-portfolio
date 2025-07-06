@@ -1,4 +1,4 @@
--- 🧠 Problem: Select all employees from the employees table. shsh
+-- 🧠 Problem: Select all employees from the employees table. 
 -- 📚 Concepts: SELECT 
 -- 💡 Why this matters: Shows understanding of basic SQL.
 
