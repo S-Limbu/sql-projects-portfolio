@@ -1,0 +1,32 @@
+-- 🧠 Problem: 
+-- 📚 Concepts: DATE_DIFF + AVG
+-- 💡 Why this matters: 
+
+-- 🔄 1. Drop existing table to avoid conflicts
+
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS purchases;
+
+-- 🧱 2. Create the table schema
+
+CREATE TABLE orders (
+  order_id INT,
+  order_date DATE,
+  fulfill_date DATE
+);
+
+-- 📊 3. Insert sample/mock data
+
+INSERT INTO orders VALUES
+(1, '2024-01-01', '2024-01-03'),
+(2, '2024-01-05', '2024-01-10'),
+(3, '2024-01-10', '2024-01-15');
+
+-- 🔍 4. Final query
+
+SELECT 
+AVG(fulfill_date - order_date) AS avg_fulfillment_days
+FROM orders;
+
+-- 🖼️ Screenshot: screenshots/24-order-fulfillment-result.png
+-- 📝 Output: 
