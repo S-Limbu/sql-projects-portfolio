@@ -1,4 +1,4 @@
-- 🧠 Problem: The HR Team wants you to identify the second-highest salary in the company. 
+- 🧠 Problem / Business Scenario: The HR Team wants you to identify the second-highest salary in the company. 
   This is part of an analysis to understand pay distribution and to create more competitive salary bands.
   
 - 📚 Concepts: DISTINCT + ORDER BY + LIMIT + OFFSET
