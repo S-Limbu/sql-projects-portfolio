@@ -1,4 +1,4 @@
-- 🧠 Problem: The Customer Success Team needs a report that shows each order along with the customer name who placed it,
+- 🧠 Problem / Business Scenario: The Customer Success Team needs a report that shows each order along with the customer name who placed it,
   so they can prepare for upcoming support calls and personalize communication.
   
 - 📚 Concepts: JOINS
