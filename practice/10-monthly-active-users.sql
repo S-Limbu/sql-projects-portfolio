@@ -1,7 +1,13 @@
--- 🧠 Problem: 
--- 📚 Concepts:  DATE_TRUNC + COUNT DISTINCT + GROUP BY
--- 💡 Why this matters: 
-
+- 🧠 Problem / Business Scenario: The Analytics Team wants to calculate Monthly Active Users (MAU) — 
+the number of unique users who logged into the platform each month — to monitor engagement trends and app usage.
+  
+- 📚 Concepts:  DATE_TRUNC + COUNT DISTINCT + GROUP BY
+  
+- 💡 Why this matters: Tracking MAUs is crucial for:
+  - Understanding user retention and churn
+  - Reporting growth to stakeholders or investors
+  - Identifying seasonal patterns and usage spikes
+  
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS orders;
