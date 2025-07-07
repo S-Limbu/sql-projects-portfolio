@@ -1,6 +1,8 @@
--- 🧠 Problem: 
--- 📚 Concepts: CTE + COUNT + GROUP BY
--- 💡 Why this matters: 
+- 🧠 Problem:
+  
+- 📚 Concepts: CTE + COUNT + GROUP BY
+  
+- 💡 Why this matters: 
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
