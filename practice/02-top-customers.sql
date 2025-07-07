@@ -1,9 +1,9 @@
--🧠 Problem / Business Scenario: The Sales Team at a growing e-commerce company wants to identify the top 2 
+- 🧠 Problem / Business Scenario: The Sales Team at a growing e-commerce company wants to identify the top 2 
 highest-spending customers, so that they can be invited to an upcoming loyalty rewards program.
   
--📚 Concepts: JOINS + GROUP BY + ORDER BY + LIMIT
+- 📚 Concepts: JOINS + GROUP BY + ORDER BY + LIMIT
   
--💡 Why this matters: Loyal, high-value customers are crucial for long-term revenue. Understanding who they are helps the company:
+- 💡 Why this matters: Loyal, high-value customers are crucial for long-term revenue. Understanding who they are helps the company:
   - Personalized marketing efforts.
   - Offers exclusive incentives. 
   - Improves customer retention / loyalty.
