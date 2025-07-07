@@ -1,9 +1,9 @@
--🧠 Problem / Business Scenario: The Regional Sales Director wants you to analyze total revenue performance by region 
+- 🧠 Problem / Business Scenario: The Regional Sales Director wants you to analyze total revenue performance by region 
 to inform where it will be best to allocate additional marketing budget for the next quarter.
   
--📚 Concepts: GROUP BY + ORDER BY
+- 📚 Concepts: GROUP BY + ORDER BY
   
--💡 Why this matters: Regional breakdowns helps evaluate area-specific performance:
+- 💡 Why this matters: Regional breakdowns helps evaluate area-specific performance:
   - Identifies strong-performing regions for potential expansion.
   - Detects any underperforming areas that may need support.
   - Guides budget allocation, staffing, and promotions more effectively.
