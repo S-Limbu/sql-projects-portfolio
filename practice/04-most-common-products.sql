@@ -1,9 +1,9 @@
--🧠 Problem / Business Scenario: The Product Team wants to identify the most frequently sold products to better understand
+- 🧠 Problem / Business Scenario: The Product Team wants to identify the most frequently sold products to better understand
 which items are performing well and should be promoted more heavily or stocked up.
   
--📚 Concepts: COUNT + GROUP BY + ORDER BY
+- 📚 Concepts: COUNT + GROUP BY + ORDER BY
   
--💡 Why this matters: Helps businesses know which products are the most popular:
+- 💡 Why this matters: Helps businesses know which products are the most popular:
   - Ensures inventory planning aligns with customer demand so that nothing is wasted.
   - Informs decisions to which items would best be bundled or featured on promotions.
   - Focused marketing efforts on best-selling products will cause less wastage of marketing budget.
