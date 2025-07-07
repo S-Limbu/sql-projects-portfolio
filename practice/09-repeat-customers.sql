@@ -1,4 +1,4 @@
-- 🧠 Problem:
+- 🧠 Problem / Business Scenario:
   
 - 📚 Concepts: CTE + COUNT + GROUP BY
   
