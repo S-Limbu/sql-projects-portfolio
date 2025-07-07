@@ -1,7 +1,13 @@
--- 🧠 Problem: Find the second highest salary.
--- 📚 Concepts: DISTINCT + ORDER BY + LIMIT + OFFSET
--- 💡 Why this matters: Return second-highest salary (if exists)
-
+- 🧠 Problem: The HR Team wants you to identify the second-highest salary in the company. 
+  This is part of an analysis to understand pay distribution and to create more competitive salary bands.
+  
+- 📚 Concepts: DISTINCT + ORDER BY + LIMIT + OFFSET
+  
+- 💡 Why this matters: Finding the second highest salary allows us to;
+  - Benchmark compensation structures.
+  - Evaluate gaps between employees.
+  - Prevent outliers or unfair compensation gaps;
+  
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS products;
