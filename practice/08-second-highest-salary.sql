@@ -23,16 +23,26 @@ CREATE TABLE employees (
 -- 📊 3. Insert sample/mock data
 
 INSERT INTO employees VALUES
-(1, 'Alice', 70000),
-(2, 'Bob', 90000),
-(3, 'Charlie', 80000);
+(1, 'Kai', 70000),
+(2, 'Ray', 90000),
+(3, 'Bart', 80000),
+(4, 'Ryan', 65000),
+(5, 'Kiera', 88000),
+(6, 'Chanel', 92000),
+(7, 'Caitlin', 67400),
+(8, 'Charlie', 52000),
+(9, 'Sophie', 80000);
 
 -- 🔍 4. Final query
 
+SELECT name, salary
+FROM employees
+WHERE salary = (
 SELECT DISTINCT salary
 FROM employees
 ORDER BY salary DESC
-OFFSET 1 LIMIT 1;
+OFFSET 1 LIMIT 1
+);
 
 -- 🖼️ Screenshot: screenshots/08-second-highest-salary-result.png
--- 📝 Output: 
+-- 📝 Output: Shows that Ray is the second highest earner with a salary of '90000'.
