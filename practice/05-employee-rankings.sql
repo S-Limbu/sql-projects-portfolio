@@ -1,4 +1,5 @@
 -🧠 Problem / Business Scenario: HR is conducting a salary analysis to identify where employees rank in terms of salary.
+  
 -📚 Concepts: Window Functions (RANK) + ORDER BY
   
 -💡 Why this matters: Ranking employees based on salary allows;
