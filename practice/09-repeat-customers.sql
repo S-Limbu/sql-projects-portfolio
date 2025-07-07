@@ -1,9 +1,13 @@
-- 🧠 Problem / Business Scenario:
+- 🧠 Problem / Business Scenario:The Marketing Analytics Team wants to identify repeat customers. 
+These customers are ideal for loyalty rewards and personalized campaigns.
   
 - 📚 Concepts: CTE + COUNT + GROUP BY
   
-- 💡 Why this matters: 
-
+- 💡 Why this matters: Understanding who your repeat buyers are, is crucial for:
+  - Targeted retention and re-engagement strategies.
+  - Loyalty program qualification.
+  - Estimating Customer Lifetime Value.
+  
 -- 🔄 1. Drop existing table to avoid conflicts
 
 DROP TABLE IF EXISTS employees;
@@ -31,6 +35,5 @@ SELECT *
 FROM order_counts
 WHERE num_orders > 1;
 
-
 -- 🖼️ Screenshot: screenshots/09-repeat-customers-result.png
--- 📝 Output: 
+-- 📝 Output: Shows those that are repeat customers.
