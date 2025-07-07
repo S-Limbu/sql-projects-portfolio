@@ -1,4 +1,4 @@
-- 🧠 Problem: The E-commerce Pricing Team wants to identify premium-priced products, defined as any product priced above the average price of all products in the store.
+- 🧠 Problem / Business Scenario: The E-commerce Pricing Team wants to identify premium-priced products, defined as any product priced above the average price of all products in the store.
 This helps them plan marketing strategies like “premium bundles” or adjust any margins.
   
 - 📚 Concepts: SUBQUERY + AVG
