@@ -37,4 +37,4 @@ GROUP BY month
 ORDER BY month;
 
 -- 🖼️ Screenshot: screenshots/10-monthly-active-users-result.png
--- 📝 Output: 
+-- 📝 Output: Shows MAU
