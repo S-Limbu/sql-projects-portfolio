@@ -1,9 +1,9 @@
--- 🧠 Problem / Business Scenario: The Finance and Sales Team wants to classify each order as either "High" or "Normal" 
+- 🧠 Problem / Business Scenario: The Finance and Sales Team wants to classify each order as either "High" or "Normal" 
 based on the amount of purchases. Orders over £500 are considered high-value and may require special handling or a follow-up.
 
--- 📚 Concepts: CASE + ELSE
+- 📚 Concepts: CASE + ELSE
 
--- 💡 Why this matters: 
+- 💡 Why this matters: 
   - Segment orders for priority shipping or fraud checks.
   - Target high-value customers with loyalty programs.
   - Simplify dashboards by grouping order tiers.
