@@ -10,7 +10,7 @@ the number of unique users who logged into the platform each month — to monito
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS logins;
 
 -- 🧱 2. Create the table schema
 
