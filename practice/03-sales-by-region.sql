@@ -10,8 +10,7 @@ to inform where it will be best to allocate additional marketing budget for the 
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS orders;
-DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS sales;
 
 -- 🧱 2. Create the table schema
 
