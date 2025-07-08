@@ -5,9 +5,9 @@
 - 📚 Concepts: SUM + GROUP BY
   
 - 💡 Why this matters: This matters for numerous reasons as;
- - High-spending customers can receive exclusive deals and loyalty programs.
- - Identifying top spenders can help priotize customer retention to those that counts the most.
- - Grouping customers by total spend allows teams to tailor messaging and promotions effectively.
+  - High-spending customers can receive exclusive deals and loyalty programs.
+  - Identifying top spenders can help priotize customer retention to those that counts the most.
+  - Grouping customers by total spend allows teams to tailor messaging and promotions effectively.
    
 -- 🔄 1. Drop existing table to avoid conflicts
 
