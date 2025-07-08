@@ -1,6 +1,13 @@
--- 🧠 Problem: 
--- 📚 Concepts: LEFT JOIN + NULL 
--- 💡 Why this matters: 
+- 🧠 Problem / Business Scenario: The Operations Team wants to find out which registered customers have never placed an order. 
+  This insight helps drive re-engagement campaigns or 
+  understand potential user drop-off points after signup.
+  
+- 📚 Concepts: LEFT JOIN + NULL 
+  
+- 💡 Why this matters:
+  - 
+  - 
+  - 
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
