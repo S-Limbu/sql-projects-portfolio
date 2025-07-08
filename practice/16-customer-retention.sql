@@ -1,11 +1,16 @@
--- 🧠 Problem: You work for an e-commerce company. You want to identify which customers are retained 
-(made more than one purchase) and which have churned (only bought once).
--- 📚 Concepts: COUNT + CASE + WHEN + THEN + ELSE + GROUP BY + ORDER BY
--- 💡 Why this matters: 
-
+- 🧠 Problem/Business Scenario: The Customer Success Team wants to identify which customers are churned vs. retained. 
+A customer who has only made one order is considered churned, while repeat customers are marked as retained.
+  
+- 📚 Concepts: COUNT + CASE + WHEN + THEN + ELSE + GROUP BY + ORDER BY
+  
+- 💡 Why this matters: 
+  - Retained customers usually have a higher lifetime value. Knowing who they are helps with upselling and targeted marketing.
+  - Customer retention is a key KPI — it’s often cheaper to retain a customer than acquire a new one.
+  - Helps categorize users into high- and low-engagement groups for personalized outreach.
+  
 -- 🔄 1. Drop existing table to avoid conflicts
-
-DROP TABLE IF EXISTS employees;
+  
+DROP TABLE IF EXISTS orders;
 
 -- 🧱 2. Create the table schema
 
@@ -26,7 +31,19 @@ INSERT INTO orders VALUES
 (5, 104, '2024-03-01', 120),
 (6, 105, '2024-03-15', 180),
 (7, 102, '2024-04-01', 220),
-(8, 101, '2024-05-01', 90);
+(8, 101, '2024-05-01', 90),
+(9, 106, '2024-05-01', 90),
+(10, 106, '2024-05-01', 110),
+(11, 107, '2024-05-01', 190),
+(12, 104, '2024-05-01', 230),
+(13, 108, '2024-05-01', 120),
+(14, 108, '2024-05-01', 60),
+(15, 109, '2024-05-01', 80),
+(16, 109, '2024-05-01', 70),
+(17, 110, '2024-05-01', 240),
+(18, 101, '2024-05-01', 230),
+(19, 101, '2024-05-01', 150),
+(20, 101, '2024-05-01', 90);
 
 -- 🔍 4. Final query
 
@@ -41,9 +58,4 @@ GROUP BY customer_id
 ORDER BY total_orders DESC;
 
 -- 🖼️ Screenshot: screenshots/16-customer-retention-result.png
--- 📝 Output: 
--- This portfolio challenge identifies customer retention using simple logic.
--- Any customer with only 1 order is considered "Churned".
--- Anyone with more than 1 order is "Retained".
--- A CASE statement is used to label each customer.
--- This simulates how businesses track customer loyalty or lifetime value.
+-- 📝 Output: Found customers who are considered 'churned'.
