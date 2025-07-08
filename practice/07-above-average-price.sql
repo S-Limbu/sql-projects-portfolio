@@ -10,7 +10,7 @@ This helps them plan marketing strategies like “premium bundles” or adjust a
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS products;
 
 -- 🧱 2. Create the table schema
 
