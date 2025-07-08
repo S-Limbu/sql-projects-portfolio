@@ -10,7 +10,7 @@ based on the amount of purchases. Orders over £500 are considered high-value an
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS logins;
+DROP TABLE IF EXISTS orders;
 
 -- 🧱 2. Create the table schema
 
