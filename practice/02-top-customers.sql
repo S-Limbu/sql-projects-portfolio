@@ -10,8 +10,7 @@ highest-spending customers, so that they can be invited to an upcoming loyalty r
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS orders;
-DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS orders, customers;
 
 -- 🧱 2. Create the table schema
 
