@@ -10,7 +10,7 @@
   
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS employees;
 
 -- 🧱 2. Create the table schema
 
