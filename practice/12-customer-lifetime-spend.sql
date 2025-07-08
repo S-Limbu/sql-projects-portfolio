@@ -11,7 +11,7 @@
    
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS customers;
 
 -- 🧱 2. Create the table schema
 
