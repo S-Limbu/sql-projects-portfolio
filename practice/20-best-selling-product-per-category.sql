@@ -10,7 +10,7 @@ The company wants to identify the best-selling product by revenue in each catego
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS products, sales;
 
 -- 🧱 2. Create the table schema
 
@@ -30,17 +30,37 @@ CREATE TABLE sales (
 -- 📊 3. Insert sample/mock data
 
 INSERT INTO products VALUES
+
 (1, 'Shirt', 'Clothing'),
 (2, 'Pants', 'Clothing'),
 (3, 'Phone', 'Electronics'),
-(4, 'Laptop', 'Electronics');
+(4, 'Laptop', 'Electronics'),
+(5, 'Tablet', 'Electronics'),
+(6, 'Pens', 'Stationary'),
+(7, 'Hoodie', 'Clothing'),
+(8, 'Shoes', 'Clothing'),
+(9, 'Notebook', 'Stationary'),
+(10, 'iPod', 'Electronics'),
+(11, 'Pencil', 'Stationary'),
+(12, 'Chips', 'Food');
 
 INSERT INTO sales VALUES
 (1, 1, 10, 20),
 (2, 2, 5, 50),
 (3, 3, 2, 500),
 (4, 4, 1, 1000),
-(5, 3, 3, 500);
+(5, 4, 3, 500),
+(6, 12, 1, 10),
+(7, 10, 11, 10),
+(8, 2, 12, 50),
+(9, 9, 8, 15),
+(10, 3, 5, 200),
+(11, 5, 1, 10),
+(12, 8, 3, 20),
+(13, 11, 9, 20),
+(14, 12, 2, 50),
+(15, 6, 4, 120),
+(16, 7, 19, 100);
 
 -- 🔍 4. Final query
 
@@ -63,4 +83,4 @@ FROM ranked
 WHERE rnk = 1;
 
 -- 🖼️ Screenshot: screenshots/20-best-selling-product-per-category-result.png
--- 📝 Output: 
+-- 📝 Output: Showcases the best product from each category and how much revenue they bring in.
