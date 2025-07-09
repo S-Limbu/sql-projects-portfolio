@@ -1,6 +1,12 @@
--- 🧠 Problem: 
--- 📚 Concepts: JOIN + GROUP BY + ORDER BY + SUM + SUBQUERIES + CTE + RANK + PARTITION BY 
--- 💡 Why this matters: 
+- 🧠 Problem / Business Scenario: You’re a Retail Analyst working for a multi-category retailer. 
+The company wants to identify the best-selling product by revenue in each category to make informed marketing strategies.
+  
+- 📚 Concepts: JOIN + GROUP BY + ORDER BY + SUM + SUBQUERIES + CTE + RANK + PARTITION BY 
+  
+- 💡 Why this matters: 
+  - Category-level insights help optimize stock and promotions for top performers.
+  - Enables targeted marketing by focusing on the most profitable products.
+  - Identifies product trends to support forecasting and strategic planning.
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
@@ -55,7 +61,6 @@ FROM product_revenue
 SELECT category, name AS best_product, revenue
 FROM ranked
 WHERE rnk = 1;
-
 
 -- 🖼️ Screenshot: screenshots/20-best-selling-product-per-category-result.png
 -- 📝 Output: 
