@@ -1,6 +1,14 @@
--- 🧠 Problem: 
--- 📚 Concepts: CTE + MAX + COUNT + GROUP BY + CASE WHEN + ELSE
--- 💡 Why this matters: 
+- 🧠 Problem / Business Scenario: You work as a Customer Insights Analyst for an e-commerce company. 
+The marketing team wants to segment customers based on their Recency, Frequency, and Monetary value to:
+reward top customers, re-engage low-value ones and identify regular buyers
+Your job is to generate an RFM (Recency-Frequency-Monetary) table using order history and segment customers accordingly.
+
+- 📚 Concepts: CTE + MAX + COUNT + GROUP BY + CASE WHEN + ELSE
+
+- 💡 Why this matters: 
+  - Helps marketing teams identify and reward loyal or high-value customers.
+  - Focuses marketing spend where it matters most, reducing wasted effort.
+  - RFM is a proven method to predict future revenue and prioritize retention efforts.
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
