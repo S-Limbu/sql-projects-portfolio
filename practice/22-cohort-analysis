@@ -1,6 +1,14 @@
--- 🧠 Problem: 
--- 📚 Concepts: CTE + DATE_TRUNC + JOIN + COUNT 
--- 💡 Why this matters: 
+- 🧠 Problem / Business Scenario: The company wants to understand user retention.
+The product team is interested in analyzing how many users remain active over time, grouped by the month they signed up.
+Your goal is to run a cohort analysis, tracking each signup cohort's activity in future months. 
+This will help assess how well users are retained after their initial signup.
+
+- 📚 Concepts: CTE + DATE_TRUNC + JOIN + COUNT 
+
+- 💡 Why this matters:
+  - High retention often signals a valuable product. Low retention means people aren't finding it useful.
+  - Helps identify when and where users drop off so that teams can improve activation, engagement, or re-engagement efforts.
+  - When new features or onboarding changes are launched, cohort analysis shows how user behavior shifts.
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
