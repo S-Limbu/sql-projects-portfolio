@@ -1,6 +1,13 @@
--- 🧠 Problem: 
--- 📚 Concepts: DATE_DIFF + AVG
--- 💡 Why this matters: 
+- 🧠 Problem / Business Scenario: You are a logistics analyst at an online retail company.
+Your operations team wants to monitor how long it takes, on average, for orders to be fulfilled after they’re placed.
+They’ve asked you to calculate the average fulfillment time in days between when an order was placed and when it was fulfilled.
+
+- 📚 Concepts: DATE_DIFF + AVG
+
+- 💡 Why this matters: 
+  - Faster fulfillment leads to happier customers and fewer support complaints.
+  - Enables comparisons across weeks, months, or different fulfillment centers.
+  - Identifies trends or bottlenecks in shipping and warehouse processes.
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
@@ -29,4 +36,4 @@ AVG(fulfill_date - order_date) AS avg_fulfillment_days
 FROM orders;
 
 -- 🖼️ Screenshot: screenshots/24-order-fulfillment-result.png
--- 📝 Output: 
+-- 📝 Output: Shows the average time it takes to complete an order after it has been placed.
