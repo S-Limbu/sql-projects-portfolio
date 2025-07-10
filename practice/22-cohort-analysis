@@ -12,7 +12,7 @@ This will help assess how well users are retained after their initial signup.
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS signups, activity;
 
 -- 🧱 2. Create the table schema
 
@@ -31,12 +31,30 @@ CREATE TABLE activity (
 INSERT INTO signups VALUES
 (1, '2024-01-01'),
 (2, '2024-01-15'),
-(3, '2024-02-01');
+(3, '2024-02-01'),
+(4, '2024-02-05'),
+(5, '2024-02-12'),
+(6, '2024-02-12'),
+(7, '2024-03-15'),
+(8, '2024-03-21'),
+(9, '2024-03-24'),
+(10, '2024-03-25'),
+(11, '2024-03-25'),
+(12, '2024-03-25');
 
 INSERT INTO activity VALUES
 (1, '2024-01-10'), (1, '2024-02-10'),
 (2, '2024-01-20'),
-(3, '2024-02-05'), (3, '2024-03-10');
+(3, '2024-02-05'), (3, '2024-03-10'),
+(4, '2024-02-07'),
+(5, '2024-02-13'), (5, '2024-02-14'), (5, '2024-02-17'),
+(6, '2024-02-15'),
+(7, '2024-03-17'), (7, '2024-03-19'),
+(8, '2024-05-21'),
+(9, '2024-04-23'), (9, '2024-04-24'),
+(10, '2024-03-26'),
+(11, '2024-05-27'), (11, '2024-05-29'),
+(12, '2024-03-29');
 
 -- 🔍 4. Final query
 
@@ -57,4 +75,4 @@ GROUP BY cohort_month, active_month
 ORDER BY cohort_month, active_month;
 
 -- 🖼️ Screenshot: screenshots/21-cohort-analysis-result.png
--- 📝 Output: 
+-- 📝 Output: Showcases the retained users and in which months they were active.
