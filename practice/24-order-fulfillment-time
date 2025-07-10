@@ -11,8 +11,7 @@ They’ve asked you to calculate the average fulfillment time in days between wh
 
 -- 🔄 1. Drop existing table to avoid conflicts
 
-DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS purchases;
+DROP TABLE IF EXISTS orders;
 
 -- 🧱 2. Create the table schema
 
@@ -27,7 +26,18 @@ CREATE TABLE orders (
 INSERT INTO orders VALUES
 (1, '2024-01-01', '2024-01-03'),
 (2, '2024-01-05', '2024-01-10'),
-(3, '2024-01-10', '2024-01-15');
+(3, '2024-01-10', '2024-01-15'),
+(4, '2024-01-10', '2024-01-15'),
+(5, '2024-01-11', '2024-01-20'),
+(6, '2024-01-13', '2024-01-21'),
+(7, '2024-01-15', '2024-01-22'),
+(8, '2024-01-15', '2024-01-23'),
+(9, '2024-01-18', '2024-01-20'),
+(10, '2024-01-20', '2024-01-25'),
+(11, '2024-01-24', '2024-01-25'),
+(12, '2024-01-25', '2024-01-27'),
+(13, '2024-01-27', '2024-01-29'),
+(14, '2024-01-27', '2024-01-30');
 
 -- 🔍 4. Final query
 
