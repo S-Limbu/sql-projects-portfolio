@@ -55,4 +55,4 @@ END AS segment
 FROM rfm;
 
 -- 🖼️ Screenshot: screenshots/25-rfm-segmentation-result.png
--- 📝 Output: 
+-- 📝 Output: Seperates the customers into tiers to see those eligble for any special loyalty benefits.
