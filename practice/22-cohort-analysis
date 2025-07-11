@@ -74,5 +74,5 @@ FROM cohorts
 GROUP BY cohort_month, active_month
 ORDER BY cohort_month, active_month;
 
--- 🖼️ Screenshot: screenshots/21-cohort-analysis-result.png
+-- 🖼️ Screenshot: screenshots/22-cohort-analysis-result.png
 -- 📝 Output: Showcases the retained users and in which months they were active.
