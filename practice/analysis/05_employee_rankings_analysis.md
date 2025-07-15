@@ -66,7 +66,7 @@ Salary clustering around mid-ranges (60K–85K) suggests potential for standardi
 
 Daniel's low rank (last place) could highlight an undercompensated role or a junior-level position worth reviewing.
 
-✅ Takeaway
+🔑 Takeaway
 Window functions like RANK() offer a powerful, transparent way to compare rows without aggregation. They’re ideal for compensation analysis, performance evaluations, and benchmarking.
 
 This kind of ranking system makes your dashboards and salary banding audits more actionable, fair, and data-backed.
