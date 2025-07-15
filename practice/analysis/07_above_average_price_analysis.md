@@ -54,6 +54,7 @@ SELECT *
 FROM products
 WHERE price > (SELECT AVG(price) FROM products);
 
+
 What's happening and why?
 
 First, the average price is calculated using a subquery:
