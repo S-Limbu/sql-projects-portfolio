@@ -3,7 +3,6 @@
 ---
 
 ## 🧠 Business Scenario
-
 The **Customer Success Team** requires a unified view that displays each order along with the corresponding customer name. This enables personalized communication and better preparation for support calls, which is crucial for delivering a high-quality customer experience.
 
 ---
