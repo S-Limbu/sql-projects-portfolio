@@ -28,31 +28,7 @@ The E-commerce Pricing Team wants to identify premium-priced products — define
 
 ## 🧪 Query Logic Breakdown
 
-```Drop table if it already exists
-DROP TABLE IF EXISTS products;
-
-Step 1: Create schema
-CREATE TABLE products (
-  id INT,
-  name TEXT,
-  price DECIMAL
-);
-
-Step 2: Insert mock/sample data
-INSERT INTO products VALUES
-(1, 'Headphones', 500),
-(2, 'Tablet', 400),
-(3, 'Laptop', 1000),
-(4, 'Watch', 650),
-(5, 'Kindle', 400),
-(6, 'Playstation 5', 550),
-(7, 'Xbox 360', 230),
-(8, 'Guitar', 200),
-(9, 'Storage Boxes', 120),
-(10, 'DVD Player', 100);
-
-Step 3: Final Query
-SELECT *
+```SELECT *
 FROM products
 WHERE price > (SELECT AVG(price) FROM products);
 
