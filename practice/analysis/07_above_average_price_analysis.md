@@ -24,6 +24,8 @@ The E-commerce Pricing Team wants to identify premium-priced products — define
 | `AVG()`    | Computes the mean value of all product prices                     |
 | `WHERE`    | Filters products above the average, classifying them as “premium” |
 
+---
+
 ## 🧪 Query Logic Breakdown
 
 -- Drop table if it already exists
