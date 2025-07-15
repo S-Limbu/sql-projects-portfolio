@@ -42,11 +42,13 @@ Step 2: SUM(amount) — Sums all the sales amounts for each region to calculate 
 Step 3: ORDER BY total_sales DESC — Sorts the results from the highest to the lowest revenue to quickly identify top performers.
 
 📊 Output Summary
-region	total_sales
-North	1200
-South	950
-East	700
-West	433
+
+| region | total\_sales |
+| ------ | ------------ |
+| North  | 1200         |
+| South  | 950          |
+| East   | 700          |
+| West   | 433          |
 
 - The North region leads in revenue with £1,200.
 
