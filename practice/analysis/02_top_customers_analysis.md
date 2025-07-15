@@ -52,7 +52,6 @@ Step 3: ORDER BY + LIMIT
 We sort these totals in descending order and then limit the result to the top 2 customers only.
 
 📊 Output Summary
-Based on the inserted mock data:
 
 | name | total\_spent |
 | ---- | ------------ |
