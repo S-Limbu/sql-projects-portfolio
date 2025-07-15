@@ -51,7 +51,7 @@ Grouping by c.name allows us to sum the amount field for each individual, result
 Step 3: ORDER BY + LIMIT
 We sort these totals in descending order and then limit the result to the top 2 customers only.
 
-## 🔍 Business Insight
+🔍 Business Insight
 This query gives us a clear and simple snapshot of customer value based on spending. These two individuals are ideal targets for:
 
 - Loyalty offers
@@ -64,7 +64,7 @@ This query gives us a clear and simple snapshot of customer value based on spend
 
 By maintaining visibility on top customers, the business can allocate marketing resources more efficiently, boosting retention and lifetime value.
 
-## ✅ Takeaway
+✅ Takeaway
 This analysis exemplifies how a straightforward SQL query can yield high-impact business insight. It bridges raw transaction data and strategic decision-making, forming the basis for customer segmentation and retention strategies.
 
-## 🔑 Knowing who your best customers are is the first step to keeping them.
+🔑 Knowing who your best customers are is the first step to keeping them.
