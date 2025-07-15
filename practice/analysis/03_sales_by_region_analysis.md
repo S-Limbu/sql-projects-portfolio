@@ -54,10 +54,10 @@ Step 3: ORDER BY total_sales DESC — Sorts the results from the highest to the 
 
 - The South follows closely, while the West significantly underperforms.
 
-## 🔍 Business Insight
+🔍 Business Insight
 From this breakdown, we can conclude that North and South regions are strong contributors to overall revenue. These areas may benefit from additional marketing support to further capitalize on momentum. Conversely, the West region is underperforming, suggesting the need for a deeper review — perhaps issues with sales reps, local demand, or pricing strategies.
 
 This type of region-specific breakdown is essential for making smart, targeted investment decisions rather than using a one-size-fits-all approach.
 
-## ✅ Takeaway
+✅ Takeaway
 Simple aggregation using GROUP BY and SUM() can uncover key regional trends that directly impact marketing budget decisions and long-term growth strategy.
