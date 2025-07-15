@@ -40,6 +40,7 @@ WHERE salary = (
   OFFSET 1 LIMIT 1
 );
 
+
 What’s happening and why?
 
 The subquery gets all unique salary values and sorts them in descending order.
