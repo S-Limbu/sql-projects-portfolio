@@ -62,7 +62,7 @@ Enables targeted outreach: If Alice has a high order value, she might be priorit
 
 Also supports real-time dashboards that show active orders with named customers.
 
-✅ Takeaway
+🔑 Takeaway
 JOINs are fundamental to relational databases, and this use case proves just how powerful they are when pulling together people and their data.
 
 This approach not only improves reporting quality but also lays the groundwork for more advanced analytics, like customer lifetime value or cohort-based purchasing behavior.
