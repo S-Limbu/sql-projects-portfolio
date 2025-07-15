@@ -1,4 +1,4 @@
-# 📦 Analysis: Identifying Premium-Priced Products Using Subqueries
+# 🎯 Analysis: Identifying Premium-Priced Products Using Subqueries
 
 ---
 
