@@ -8,7 +8,7 @@ The Sales Team at a growing e-commerce company wants to **identify the top two h
 
 ---
 
-## 💼 Why This Insight Matters
+## 💡 Why This Insight Matters
 
 High-spending customers typically generate **disproportionate revenue** and are crucial to the success of any growing business. By identifying them early, the company can:
 
