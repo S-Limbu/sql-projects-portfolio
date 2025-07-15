@@ -8,11 +8,12 @@ The E-commerce Pricing Team wants to identify premium-priced products — define
 ---
 
 ## 💡 Why This Insight Matters
-Helps segment inventory into “budget,” “standard,” and “premium” tiers.
 
-Enables pricing teams to make informed decisions based on actual value distribution.
+- Helps segment inventory into **“budget,”** **“standard,”** and **“premium”** tiers.
 
-Supports personalized marketing and targeted upselling of higher-value items.
+- Enables pricing teams to make **informed decisions** based on actual value distribution.
+
+- Supports **personalized marketing** and targeted upselling of higher-value items.
 
 ---
 
