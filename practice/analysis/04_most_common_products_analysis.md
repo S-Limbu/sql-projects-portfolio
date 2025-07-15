@@ -42,10 +42,12 @@ Step 2: COUNT(*) — Counts the number of sales (rows) associated with each prod
 Step 3: ORDER BY count_sold DESC — Sorts the result in descending order so that the most sold products appear at the top.
 
 📊 Output Summary
-product_name	count_sold
-iPhone	3
-Samsung	2
-Huawei	1
+
+| product\_name | count\_sold |
+| ------------- | ----------- |
+| iPhone        | 3           |
+| Samsung       | 2           |
+| Huawei        | 1           |
 
 - The iPhone is the most frequently sold product with 3 sales.
 
