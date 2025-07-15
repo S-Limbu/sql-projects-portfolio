@@ -36,6 +36,8 @@ SELECT DATE_TRUNC('month', login_date) AS month,
 FROM logins
 GROUP BY month
 ORDER BY month;
+
+
 What’s happening and why?
 
 DATE_TRUNC('month', login_date) groups logins into months by truncating the full login date.
