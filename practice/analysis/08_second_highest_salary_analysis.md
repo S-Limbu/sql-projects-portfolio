@@ -31,6 +31,7 @@ The HR Team is conducting a salary band review and wants to identify the second-
 ## 🧪 Query Logic Breakdown
 
 --sql
+
 SELECT name, salary
 FROM employees
 WHERE salary = (
