@@ -67,14 +67,11 @@ The query returns:
 🔍 Business Insight
 Ray earns the second-highest salary in the company at £90,000, just below Chanel’s £92,000. This allows HR to:
 
-Use £90K as a benchmark when setting upper salary limits for certain roles.
+- Use £90K as a benchmark when setting upper salary limits for certain roles.
 
-Evaluate whether similar roles deserve adjustments to remain competitive.
+- Evaluate whether similar roles deserve adjustments to remain competitive.
 
-Ensure top-performers are compensated fairly without excessive gaps.
+- Ensure top-performers are compensated fairly without excessive gaps.
 
 ✅ Takeaway
 Ray holds the second-highest salary in the company — a key data point for HR when benchmarking competitive pay and ensuring fairness across teams.
-
-
-
