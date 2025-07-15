@@ -28,7 +28,8 @@ The E-commerce Pricing Team wants to identify premium-priced products — define
 
 ## 🧪 Query Logic Breakdown
 
-```SELECT *
+```
+SELECT *
 FROM products
 WHERE price > (SELECT AVG(price) FROM products);
 
