@@ -64,5 +64,5 @@ Customers with multiple purchases are strong candidates for loyalty programs and
 
 - Early access promotions
 
-✅ Takeaway
+🔑 Takeaway
 Two repeat customers were identified — prime candidates for loyalty programs and targeted marketing efforts to increase retention and maximize revenue.
