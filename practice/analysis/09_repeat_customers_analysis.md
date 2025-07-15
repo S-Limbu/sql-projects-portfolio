@@ -36,6 +36,8 @@ WITH order_counts AS (
 SELECT *
 FROM order_counts
 WHERE num_orders > 1;
+
+
 What’s happening and why?
 
 A CTE (WITH order_counts) is used to first count how many orders each customer has placed.
