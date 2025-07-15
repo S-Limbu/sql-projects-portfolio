@@ -1,15 +1,18 @@
+📦 Analysis: Identifying Premium-Priced Products Using Subqueries
+
 🧠 Business Scenario
-The E-commerce Pricing Team wants to determine which products are priced above the average price of all items in the store. These premium-priced products can then be flagged for marketing strategies like bundling, exclusivity campaigns, or margin adjustments.
+The E-commerce Pricing Team wants to identify premium-priced products — defined as any item priced above the average price in the store. This helps them strategically plan bundles, promotions, and margin optimizations.
 
 💡 Why This Insight Matters
-Helps categorize products into pricing tiers like “budget,” “standard,” and “premium.”
+Helps segment inventory into “budget,” “standard,” and “premium” tiers.
 
-Allows marketing to focus on high-margin items for bundles or featured promotions.
+Enables pricing teams to make informed decisions based on actual value distribution.
 
-Enables pricing teams to make data-driven decisions when setting or reviewing price points.
+Supports personalized marketing and targeted upselling of higher-value items.
 
 🧰 SQL Concepts Used
-Concept	Purpose
-SUBQUERY	Calculates the average price to compare each product against
-AVG()	Computes the average price of all products
-WHERE	Filters for only products priced above that average
+| Concept    | Purpose                                                           |
+| ---------- | ----------------------------------------------------------------- |
+| `SUBQUERY` | Dynamically calculates average price for use in the outer query   |
+| `AVG()`    | Computes the mean value of all product prices                     |
+| `WHERE`    | Filters products above the average, classifying them as “premium” |
