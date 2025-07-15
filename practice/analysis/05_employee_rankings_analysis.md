@@ -1,4 +1,4 @@
-# 💼 Analysis: Employee Salary Ranking with Window Functions
+# 🎯 Analysis: Employee Salary Ranking with Window Functions
 
 ---
 
