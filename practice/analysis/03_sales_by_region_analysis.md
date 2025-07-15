@@ -59,5 +59,5 @@ From this breakdown, we can conclude that North and South regions are strong con
 
 This type of region-specific breakdown is essential for making smart, targeted investment decisions rather than using a one-size-fits-all approach.
 
-✅ Takeaway
+🔑 Takeaway
 Simple aggregation using GROUP BY and SUM() can uncover key regional trends that directly impact marketing budget decisions and long-term growth strategy.
