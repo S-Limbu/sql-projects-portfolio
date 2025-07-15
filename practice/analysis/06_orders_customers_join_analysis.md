@@ -1,4 +1,4 @@
-# 📦 Analysis: Joining Customers with Their Orders
+# 🎯 Analysis: Joining Customers with Their Orders
 
 ---
 
