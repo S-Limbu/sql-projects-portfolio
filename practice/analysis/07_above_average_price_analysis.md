@@ -65,5 +65,5 @@ The store can:
 
 - Focus margin analysis and promotional budgets around these key items.
 
-✅ Takeaway
+🔑 Takeaway
 High-ticket electronics like laptops and gaming consoles consistently price above average — ideal candidates for premium marketing strategies and bundle promotions.
