@@ -3,7 +3,6 @@
 ---
 
 ## 🧠 Business Scenario
-
 The Marketing Analytics Team wants to identify customers who have made more than one purchase. These repeat customers are seen as valuable for loyalty initiatives and personalized re-engagement campaigns aimed at boosting retention and Customer Lifetime Value.
 
 ---
@@ -28,7 +27,7 @@ The Marketing Analytics Team wants to identify customers who have made more than
 
 ## 🧪 Query Logic Breakdown
 
----sql
+```sql
 WITH order_counts AS (
   SELECT customer_id, COUNT(*) AS num_orders
   FROM orders
