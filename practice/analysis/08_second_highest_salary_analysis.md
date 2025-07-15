@@ -1,4 +1,4 @@
-# 📦 Analysis: Identifying the Second-Highest Salary for HR Compensation Benchmarking
+# 🎯 Analysis: Identifying the Second-Highest Salary for HR Compensation Benchmarking
 
 ---
 
