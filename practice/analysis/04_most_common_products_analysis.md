@@ -8,7 +8,7 @@ The Product Team is interested in identifying which products are sold the most. 
 
 ---
 
-## 💼 Why This Insight Matters
+## 💡 Why This Insight Matters
 
 - Helps align inventory planning with actual customer demand, reducing waste and stockouts.
 - Identifies products to feature in high-visibility marketing campaigns or bundles.
