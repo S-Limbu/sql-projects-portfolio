@@ -51,6 +51,20 @@ Grouping by c.name allows us to sum the amount field for each individual, result
 Step 3: ORDER BY + LIMIT
 We sort these totals in descending order and then limit the result to the top 2 customers only.
 
+📊 Output Summary
+Based on the inserted mock data:
+
+| name | total\_spent |
+| ---- | ------------ |
+| Kim  | 550          |
+| Rob  | 250          |
+
+- Kim is the highest spender with £550.
+
+- Rob is the second highest with £250.
+
+- Both are strong candidates for the loyalty rewards program.
+
 🔍 Business Insight
 This query gives us a clear and simple snapshot of customer value based on spending. These two individuals are ideal targets for:
 
