@@ -73,5 +73,5 @@ Ray earns the second-highest salary in the company at £90,000, just below Chane
 
 - Ensure top-performers are compensated fairly without excessive gaps.
 
-✅ Takeaway
+🔑 Takeaway
 Ray holds the second-highest salary in the company — a key data point for HR when benchmarking competitive pay and ensuring fairness across teams.
