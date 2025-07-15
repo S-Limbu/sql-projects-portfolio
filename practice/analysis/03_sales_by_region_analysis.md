@@ -8,7 +8,7 @@ The Regional Sales Director wants to understand how different regions are perfor
 
 ---
 
-## 💼 Why This Insight Matters
+## 💡 Why This Insight Matters
 
 - Helps prioritize high-performing regions for expansion or additional investment.
 - Uncovers underperforming areas that may need revised strategies or resources.
