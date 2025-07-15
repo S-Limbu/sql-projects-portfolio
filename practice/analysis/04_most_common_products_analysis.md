@@ -58,5 +58,5 @@ This data indicates that the iPhone is significantly outperforming other product
 
 In contrast, Huawei, with just one sale, may not currently warrant as much marketing or inventory allocation. However, its performance might improve with better positioning or pricing.
 
-✅ Takeaway
+🔑 Takeaway
 Simple frequency analysis using COUNT() and GROUP BY gives powerful insight into product performance. These insights can fuel smarter merchandising, better ad targeting, and more strategic inventory planning.
