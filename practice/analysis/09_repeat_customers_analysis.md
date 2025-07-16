@@ -40,11 +40,11 @@ WHERE num_orders > 1;
 
 What’s happening and why?
 
-A CTE (WITH order_counts) is used to first count how many orders each customer has placed.
+- A CTE (WITH order_counts) is used to first count how many orders each customer has placed.
 
-Then, the main query selects only customers with more than one order using WHERE num_orders > 1.
+- Then, the main query selects only customers with more than one order using WHERE num_orders > 1.
 
-This results in a clean, modular breakdown of the logic, improving readability and maintainability of the SQL.
+- This results in a clean, modular breakdown of the logic, improving readability and maintainability of the SQL.
 
 📊 Output Summary
 
