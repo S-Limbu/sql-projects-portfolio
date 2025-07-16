@@ -32,6 +32,7 @@ LEFT JOIN orders o ON c.id = o.customer_id
 WHERE o.id IS NULL;
 
 What’s happening and why?
+
 - We're keeping all records from the customers table (using LEFT JOIN) and pulling in matching orders (if they exist).
 
 - If there is no match, the order.id will be NULL.
