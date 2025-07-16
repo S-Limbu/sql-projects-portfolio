@@ -55,9 +55,9 @@ Based on the data provided:
 | 2023-01-01 | 2             |
 | 2023-02-01 | 2             |
 
-- January had 2 unique users.
+ January had 2 unique users.
 
-- February also had 2 unique users.
+ February also had 2 unique users.
 
 🔍 Business Insight
 MAU remained consistent across January and February with 2 active users each month. This suggests a stable user base at this early stage, though growth is not yet visible. With more data over time, trends like spikes, drops, or growth periods will become clearer — vital for product development and marketing strategy.
