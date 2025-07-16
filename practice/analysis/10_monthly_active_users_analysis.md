@@ -40,11 +40,11 @@ ORDER BY month;
 
 What’s happening and why?
 
-DATE_TRUNC('month', login_date) groups logins into months by truncating the full login date.
+- DATE_TRUNC('month', login_date) groups logins into months by truncating the full login date.
 
-COUNT(DISTINCT user_id) counts how many unique users logged in during each month.
+- COUNT(DISTINCT user_id) counts how many unique users logged in during each month.
 
-Results are grouped by month and ordered chronologically for clean reporting.
+- Results are grouped by month and ordered chronologically for clean reporting.
 
 📊 Output Summary
 
