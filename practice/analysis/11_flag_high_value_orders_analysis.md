@@ -39,13 +39,13 @@ FROM orders;
 
 What’s happening and why?
 
-The CASE statement evaluates the amount in each order.
+- The CASE statement evaluates the amount in each order.
 
-Orders with amounts greater than £500 are labeled 'High'.
+- Orders with amounts greater than £500 are labeled 'High'.
 
-All other orders are marked as 'Normal'.
+- All other orders are marked as 'Normal'.
 
-This classification is added as a new column (value_flag) in the output.
+- This classification is added as a new column (value_flag) in the output.
 
 📊 Output Summary
 
