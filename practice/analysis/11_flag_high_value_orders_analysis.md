@@ -9,11 +9,11 @@ The Finance and Sales Team wants to classify each order based on the purchase am
 
 ## 💡 Why This Insight Matters
 
-- Helps prioritize high-value orders for quicker shipping or manual verification.
+- Helps **prioritize high-value orders** for quicker shipping or manual verification.
 
-- Allows teams to target premium customers with tailored incentives or loyalty programs.
+- Allows teams to **target premium customers** with tailored incentives or loyalty programs.
 
-- Improves reporting and dashboard clarity by grouping orders into meaningful tiers.
+- Improves reporting and dashboard clarity by **grouping orders into meaningful tiers**.
 
 ---
 
