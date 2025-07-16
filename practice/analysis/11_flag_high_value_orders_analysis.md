@@ -26,7 +26,7 @@ The Finance and Sales Team wants to classify each order based on the purchase am
 
 ---
 
-🧪 Query Logic Breakdown
+## 🧪 Query Logic Breakdown
 
 ```sql
 SELECT *,
