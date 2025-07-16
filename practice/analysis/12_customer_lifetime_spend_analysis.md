@@ -33,6 +33,8 @@ SELECT customer_id,
 FROM orders
 GROUP BY customer_id
 ORDER BY lifetime_spend DESC;
+
+
 What’s happening and why?
 
 - The query groups all orders by customer_id.
