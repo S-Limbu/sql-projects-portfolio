@@ -33,11 +33,11 @@ SELECT name, salary,
        RANK() OVER (ORDER BY salary DESC) AS salary_rank
 FROM employees;
 
-RANK() is a window function that assigns a rank based on the order of salary.
+- RANK() is a window function that assigns a rank based on the order of salary.
 
-OVER (ORDER BY salary DESC) tells SQL to rank employees starting with the highest salary.
+- OVER (ORDER BY salary DESC) tells SQL to rank employees starting with the highest salary.
 
-If two or more employees have the same salary, they receive the same rank, and the next rank(s) are skipped — this is what distinguishes RANK() from DENSE_RANK() or ROW_NUMBER().
+- If two or more employees have the same salary, they receive the same rank, and the next rank(s) are skipped — this is what distinguishes RANK() from DENSE_RANK() or ROW_NUMBER().
 
 📊 Output Summary
 
