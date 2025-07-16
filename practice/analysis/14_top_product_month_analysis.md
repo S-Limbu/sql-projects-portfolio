@@ -44,7 +44,9 @@ ranked AS (
 SELECT * 
 FROM ranked
 WHERE rnk = 1;
-Plain English Explanation:
+
+
+What’s happening and why?
 
 - First, we summarize monthly quantity sold per product (monthly_sales CTE).
 
