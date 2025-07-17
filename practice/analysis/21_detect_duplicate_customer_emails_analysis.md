@@ -67,6 +67,24 @@ HAVING COUNT(*) > 1
 | [r@example.com](mailto:r@example.com) | 4            |
 | [c@example.com](mailto:c@example.com) | 2            |
 
+ Business Insight
+This analysis uncovers specific email addresses that are duplicated across your user base. From a business perspective:
+
+These users are likely to receive redundant communications, which can harm brand trust.
+
+A high duplication rate may indicate flaws in frontend validation, backend merging logic, or CRM sync rules.
+
+Identifying and cleaning duplicates improves your ability to:
+
+Accurately measure unique customer metrics (LTV, churn, engagement).
+
+Maintain healthy segmentation for retargeting or onboarding flows.
+
+Eliminate wasted spend on duplicated ad impressions or email sends.
+
+🔍 Insight: The email r@example.com appears 4 times, showing a high-risk data inconsistency.
+That could signal misuse or a need for deduplication logic before the next marketing cycle.
+
 🔑 Takeaway
 This query gives you a clean, prioritized list of problematic emails, so your team can:
 
