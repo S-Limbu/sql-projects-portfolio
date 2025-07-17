@@ -73,7 +73,7 @@ ROUND(..., 2)
 | 2024-01-05        | 300    | 930            | 210.00          |
 | ...               | ...    | ...            | ...             |
 
-✅ Takeaway
+🔑 Takeaway
 This combined view of daily revenue, cumulative growth, and short-term trends offers a powerful snapshot for:
 
 Daily financial monitoring
