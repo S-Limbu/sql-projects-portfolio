@@ -1,4 +1,4 @@
-# 🎯 Analysis: Identifying Top 2 Highest-Spending Customers
+# 🎯 Analysis: Identifying The Top 2 Highest-Spending Customers
 
 ---
 
@@ -42,6 +42,9 @@ GROUP BY c.name
 ORDER BY total_spent DESC
 LIMIT 2;
 
+
+What’s happening and why?
+
 Step 1: JOIN
 We join the customers and orders tables to associate each order with a customer name.
 
@@ -77,7 +80,7 @@ This query gives us a clear and simple snapshot of customer value based on spend
 
 By maintaining visibility on top customers, the business can allocate marketing resources more efficiently, boosting retention and lifetime value.
 
-✅ Takeaway
+🔑 Takeaway
 This analysis exemplifies how a straightforward SQL query can yield high-impact business insight. It bridges raw transaction data and strategic decision-making, forming the basis for customer segmentation and retention strategies.
 
-🔑 Knowing who your best customers are is the first step to keeping them.
+Knowing who your best customers are is the first step to keeping them.
