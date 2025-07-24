@@ -68,6 +68,7 @@ We sort these totals in descending order and then limit the result to the top 2 
 - Both are strong candidates for the loyalty rewards program.
 
 🔍 Business Insight
+
 This query gives us a clear and simple snapshot of customer value based on spending. These two individuals are ideal targets for:
 
 - Loyalty offers
