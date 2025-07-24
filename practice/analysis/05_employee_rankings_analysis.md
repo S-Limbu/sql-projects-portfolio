@@ -4,7 +4,7 @@
 
 ## 🧠 Business Scenario
 
-The HR department is conducting an internal salary analysis to understand how employee compensation is distributed. The goal is to rank employees by salary to assist with transparent compensation planning, fair pay structures, and to flag any anomalies in pay across the organization.
+The HR department is conducting an **internal salary analysis** to understand how employee compensation is distributed. The goal is to **rank employees by salary** to assist with transparent compensation planning, fair pay structures, and to flag any anomalies in pay across the organization.
 
 ---
 
@@ -21,8 +21,8 @@ The HR department is conducting an internal salary analysis to understand how em
 | Concept                    | Purpose                                                                 |
 |----------------------------|-------------------------------------------------------------------------|
 | `RANK()` Window Function   | Assigns a rank to each employee based on salary, allowing for ties.     |
-| `OVER (ORDER BY salary DESC)` | Sorts salaries from highest to lowest to calculate rank.            |
-| `ORDER BY`                 | Not required in the subquery, but applied to clean output display.       |
+| `OVER (ORDER BY salary DESC)` | Sorts salaries from highest to lowest to calculate rank.             |
+| `ORDER BY`                 | Not required in the subquery, but applied to clean output display.      |
 
 ---
 
@@ -32,6 +32,9 @@ The HR department is conducting an internal salary analysis to understand how em
 SELECT name, salary,
        RANK() OVER (ORDER BY salary DESC) AS salary_rank
 FROM employees;
+
+
+What’s happening and why?
 
 - RANK() is a window function that assigns a rank based on the order of salary.
 
@@ -43,13 +46,13 @@ FROM employees;
 
 | name    | salary | salary\_rank |
 | ------- | ------ | ------------ |
-| Rob     | 90000  | 1            |
 | Melissa | 90000  | 1            |
+| Rob     | 90000  | 1            |
 | Bob     | 86700  | 3            |
 | Cane    | 85000  | 4            |
 | Sam     | 70000  | 5            |
-| Diana   | 60000  | 6            |
 | Michael | 60000  | 6            |
+| Diana   | 60000  | 6            |
 | Tyler   | 50000  | 8            |
 | Daniel  | 40400  | 9            |
 
@@ -57,14 +60,15 @@ FROM employees;
 
 - Diana and Michael are tied at rank 6, both earning 60,000.
 
-- Notice the rank skips (e.g. no rank 2 or 7), which is expected behavior of RANK().
+- Notice the rank skips (e.g. no rank 2 or 7), which is the expected behavior of RANK().
 
 🔍 Business Insight
-There’s a tie at the top, which may prompt HR to compare performance metrics between Rob and Melissa for leadership consideration.
 
-Salary clustering around mid-ranges (60K–85K) suggests potential for standardizing bands.
+- There’s a tie at the top, which may prompt HR to compare performance metrics between Rob and Melissa for leadership consideration.
 
-Daniel's low rank (last place) could highlight an undercompensated role or a junior-level position worth reviewing.
+- Salary clustering around mid-ranges (60K–85K) suggests potential for standardizing bands.
+
+- Daniel's low rank (last place) could highlight an undercompensated role or a junior-level position worth reviewing.
 
 🔑 Takeaway
 Window functions like RANK() offer a powerful, transparent way to compare rows without aggregation. They’re ideal for compensation analysis, performance evaluations, and benchmarking.
