@@ -59,6 +59,7 @@ Step 3: ORDER BY count_sold DESC — Sorts the result in descending order so tha
 - Huawei trails with just 1 sale.
 
 🔍 Business Insight
+
 - This data indicates that the iPhone is significantly outperforming other products in terms of sales volume.
 
 - It would be strategic to feature it in promotions, ensure it's fully stocked, and possibly bundle it with accessories to drive additional sales.
