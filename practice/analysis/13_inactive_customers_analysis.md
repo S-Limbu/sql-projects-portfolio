@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Operations Team needs to identify registered users who have never placed an order. This is a critical insight to support re-engagement campaigns and helps understand where in the user journey potential drop-off or friction occurs — especially after account creation.
+The Operations Team needs to **identify registered users who have never placed an order**. This is a critical insight to **support re-engagement campaigns** and helps understand where in the user journey **potential drop-off or friction occurs** — especially after account creation.
 
 ## 💡 Why This Insight Matters
 
@@ -55,7 +55,12 @@ What’s happening and why?
 These users signed up but have not placed any orders.
 
 🔍 Business Insight
-Roughly 7 out of 12 users (58%) registered but never completed a purchase. This insight suggests a potential problem in the conversion funnel — possibly poor onboarding, pricing issues, or lack of initial value shown. It allows marketing or product teams to target these users with onboarding fixes, tailored campaigns, or incentives to convert.
+
+- Roughly 7 out of 12 users (58%) registered but never completed a purchase.
+
+- This insight suggests a potential problem in the conversion funnel — possibly poor onboarding, pricing issues, or lack of initial value shown.
+
+- It allows marketing and product teams to target these users with onboarding fixes, tailored campaigns, or incentives to convert.
 
 🔑 Takeaway
 Over half of registered users haven’t converted — this presents a major opportunity for retention and re-engagement strategy.
