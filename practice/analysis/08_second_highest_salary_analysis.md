@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The HR Team is conducting a salary band review and wants to identify the second-highest salary in the company. This is part of a broader initiative to understand current pay distribution, evaluate fairness, and redesign competitive compensation strategies.
+The HR Team is conducting a salary band review and wants to **identify the second-highest salary** in the company. This is part of a broader initiative to **understand current pay distribution, evaluate fairness, and redesign competitive compensation strategies**.
 
 ---
 
@@ -43,11 +43,11 @@ WHERE salary = (
 
 What’s happening and why?
 
-The subquery gets all unique salary values and sorts them in descending order.
+- The subquery gets all unique salary values and sorts them in descending order.
 
-OFFSET 1 LIMIT 1 skips the top salary and returns the second-highest.
+- OFFSET 1 LIMIT 1 skips the top salary and returns the second-highest.
 
-The outer query then matches this salary against the employees table to return the name(s) and salary of employee(s) earning it.
+- The outer query then matches this salary against the employees table to return the name(s) and salary of employee(s) earning it.
 
 📊 Output Summary
 
@@ -66,6 +66,7 @@ The query returns:
 | Ray  | 90000  |
 
 🔍 Business Insight
+
 Ray earns the second-highest salary in the company at £90,000, just below Chanel’s £92,000. This allows HR to:
 
 - Use £90K as a benchmark when setting upper salary limits for certain roles.
