@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Finance and Sales Team wants to classify each order based on the purchase amount. Orders above £500 are marked as "High" value to flag them for special attention — such as fraud checks, premium support, or loyalty rewards.
+The Finance and Sales Team wants to classify each order based on the purchase amount. Orders **above £500 are marked as "High" value** to flag them for **special attention** — such as fraud checks, premium support, or loyalty rewards.
 
 ---
 
@@ -63,7 +63,16 @@ What’s happening and why?
 | 10 | 10           | 770    | High        |
 
 🔍 Business Insight
-Out of 10 orders, 5 were classified as 'High' value. This shows that half the orders meet the premium threshold, giving the Sales and Finance teams a solid base of high-value customers to focus on for loyalty strategies, personalized follow-ups, and operational prioritization.
+
+- Out of 10 orders, 5 were classified as 'High' value.
+
+- This shows that half the orders meet the premium threshold, giving the Sales and Finance teams a solid base of high-value customers to focus on for ;
+
+- loyalty strategies
+
+- personalized follow-ups
+
+- operational prioritization.
 
 🔑 Takeaway
 Half of all orders exceed £500 — making them prime targets for premium customer programs and operational prioritization.
