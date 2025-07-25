@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The E-commerce Pricing Team wants to identify premium-priced products — defined as any item priced above the average price in the store. This helps them strategically plan bundles, promotions, and margin optimizations.
+The E-commerce Pricing Team wants to **identify premium-priced products** — defined as any item priced **above the average price** in the store. This helps them **strategically plan bundles, promotions, and margin optimizations**.
 
 ---
 
@@ -18,6 +18,7 @@ The E-commerce Pricing Team wants to identify premium-priced products — define
 ---
 
 ## 🧰 SQL Concepts Used
+
 | Concept    | Purpose                                                           |
 | ---------- | ----------------------------------------------------------------- |
 | `SUBQUERY` | Dynamically calculates average price for use in the outer query   |
@@ -36,10 +37,10 @@ WHERE price > (SELECT AVG(price) FROM products);
 
 What's happening and why?
 
-First, the average price is calculated using a subquery:
+- First, the average price is calculated using a subquery:
 SELECT AVG(price) FROM products.
 
-Then, we filter the products where price > average, identifying premium items in real-time.
+- Then, we filter the products where price > average, identifying premium items in real-time.
 
 📊 Output Summary
 
@@ -55,7 +56,10 @@ The average price across all products is £415. The query returns:
 These products are considered premium-tier.
 
 🔍 Business Insight
-The results show that high-value, tech-oriented products dominate the premium segment. This highlights a possible opportunity for bundling or marketing high-end electronics, as they consistently price above average.
+
+- The results show that high-value, tech-oriented products dominate the premium segment.
+
+- This highlights a possible opportunity for bundling or marketing high-end electronics, as they consistently price above average.
 
 The store can:
 
