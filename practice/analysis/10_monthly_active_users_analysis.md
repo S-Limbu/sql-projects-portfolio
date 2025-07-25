@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Analytics Team needs to monitor Monthly Active Users (MAU) — a core metric that indicates how many unique users are engaging with the platform each month. This helps assess growth, retention, and product health over time.
+The Analytics Team needs to **monitor Monthly Active Users** (MAU) — a core metric that indicates how many unique users are engaging with the platform each month. This helps **assess growth, retention, and product health over time**.
 
 ---
 
@@ -17,7 +17,7 @@ The Analytics Team needs to monitor Monthly Active Users (MAU) — a core metric
 
 ---
 
-🧰 SQL Concepts Used
+## 🧰 SQL Concepts Used
 
 | Concept               | Purpose                                                               |
 | --------------------- | --------------------------------------------------------------------- |
@@ -60,7 +60,12 @@ Based on the data provided:
  February also had 2 unique users.
 
 🔍 Business Insight
-MAU remained consistent across January and February with 2 active users each month. This suggests a stable user base at this early stage, though growth is not yet visible. With more data over time, trends like spikes, drops, or growth periods will become clearer — vital for product development and marketing strategy.
+
+- MAU remained consistent across January and February with 2 active users each month.
+
+- This suggests a stable user base at this early stage, though growth is not yet visible.
+
+- With more data over time, trends like spikes, drops, or growth periods will become clearer — vital for product development and marketing strategy.
 
 🔑 Takeaway
 Monthly active users are steady across the first two months — this insight sets the foundation for monitoring user growth and engagement long-term.
