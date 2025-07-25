@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Marketing Analytics Team wants to identify customers who have made more than one purchase. These repeat customers are seen as valuable for loyalty initiatives and personalized re-engagement campaigns aimed at boosting retention and Customer Lifetime Value.
+The Marketing Analytics Team wants to **identify customers who have made more than one purchase**. These repeat customers are seen as **valuable for loyalty initiatives and personalized re-engagement campaigns** aimed at boosting retention and Customer Lifetime Value.
 
 ---
 
@@ -52,13 +52,14 @@ Based on the sample data:
 
 | customer\_id | num\_orders |
 | ------------ | ----------- |
-| 1            | 2           |
 | 3            | 3           |
+| 1            | 2           |
 
 These two customers are considered repeat buyers.
 
 🔍 Business Insight
-Customers with multiple purchases are strong candidates for loyalty programs and upselling opportunities. In this case, Customer 1 and Customer 3 have shown repeated engagement with the business, making them ideal targets for:
+
+- Customers with multiple purchases are strong candidates for loyalty programs and upselling opportunities. In this case, Customer 1 and Customer 3 have shown repeated engagement with the business, making them ideal targets for:
 
 - Reward tiers
 
