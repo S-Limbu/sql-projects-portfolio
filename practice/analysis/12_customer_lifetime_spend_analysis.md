@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Marketing Team wants to analyze how much each customer has spent in total since they first started purchasing. This metric, known as Customer Lifetime Value (CLV), is essential for tailoring marketing strategies, improving customer retention, and driving business growth through informed segmentation.
+The Marketing Team wants to **analyze how much each customer has spent in total** since they first started purchasing. This metric, known as Customer Lifetime Value (CLV), is **essential for tailoring marketing strategies, improving customer retention, and driving business growth** through informed segmentation.
 
 ---
 
@@ -47,13 +47,26 @@ What’s happening and why?
 
 | customer\_id | lifetime\_spend |
 | ------------ | --------------- |
-| 2            | 300             |
-| 1            | 300             |
+| 2            | 2100            |
+| 1            | 1950            |
+| 3            | 800             |
+| 6            | 780             |
+| 10           | 770             |
+| 7            | 650             |
+| 5            | 450             |
+| 4            | 200             |
+| 8            | 100             |
+| 9            | 100             |
 
-Both customer 1 and 2 have spent £300 total, though customer 1 made multiple purchases.
+Both customer 8 and 9 have spent £100 total, though 1 customer could have made multiple purchases.
 
 🔍 Business Insight
-The data reveals which customers contribute the most revenue over time. Even if two customers have spent the same total, one might be more engaged due to repeated purchases. This information enables tiered retention strategies — such as frequency-based promotions for recurring buyers or high-ticket rewards for one-time big spenders.
+
+- The data reveals which customers contribute the most revenue over time.
+
+- Even if two customers have spent the same total, one might be more engaged due to repeated purchases.
+
+- This information enables tiered retention strategies — such as frequency-based promotions for recurring buyers or high-ticket rewards for one-time big spenders.
 
 🔑 Takeaway
 Customer Lifetime Value reveals your most valuable buyers — a vital metric for loyalty, retention, and personalized engagement campaigns.
