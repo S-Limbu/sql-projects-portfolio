@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Customer Success Team wants to classify each customer as either churned or retained. A churned customer is one who made only one purchase, while retained customers made multiple orders — suggesting continued engagement and loyalty.
+The Customer Success Team wants to **classify each customer as either churned or retained**. A churned customer is one who made only one purchase, while retained customers made multiple orders — suggesting continued engagement and loyalty.
 
 ---
 
@@ -60,18 +60,22 @@ What’s happening and why?
 | ------------ | ------------- | -------- |
 | 101          | 6             | Retained |
 | 102          | 2             | Retained |
-| 103          | 1             | Churned  |
+| 109          | 2             | Retained |
+| 106          | 2             | Retained |
+| 108          | 2             | Retained |
 | 104          | 2             | Retained |
+| 110          | 1             | Churned  |
+| 103          | 1             | Churned  |
 | 105          | 1             | Churned  |
-| ...          | ...           | ...      |
-
+| 107          | 1             | Churned  |
 
 🔍 Business Insight
-The query cleanly separates customers based on their order frequency.
 
-Customers like 101 and 102 are retained, showing long-term potential.
+- The query cleanly separates customers based on their order frequency.
 
-Customers like 103, 105, and 107 are churned, indicating potential drop-off.
+- Customers like 101 and 102 are retained, showing long-term potential.
+
+- Customers like 103, 105, and 107 and 110 are churned, indicating potential drop-off.
 
 🔑 Takeaway
 Repeat buyers are retained — key targets for loyalty and upsell efforts; single-order users are at risk of churn.
