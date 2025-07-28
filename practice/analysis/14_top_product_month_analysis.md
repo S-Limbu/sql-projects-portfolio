@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Sales Team needs to track the highest-selling product each month based on quantity sold. This supports demand forecasting, inventory control, and promotional planning throughout the year.
+The Sales Team needs to track the **highest-selling product** each month based on quantity sold. This **supports demand forecasting, inventory control, and promotional planning** throughout the year.
 
 ## 💡 Why This Insight Matters
 
@@ -59,16 +59,16 @@ What’s happening and why?
 | month      | product | total\_quantity | rnk |
 | ---------- | ------- | --------------- | --- |
 | 2023-01-01 | Phone   | 3               | 1   |
-| 2023-02-01 | Tablet  | 9               | 1   |
+| 2023-02-01 | Laptop  | 11              | 1   |
 | 2023-03-01 | Laptop  | 14              | 1   |
 
 🔍 Business Insight
 
-January: Phone leads sales, but volume is relatively low.
+- January: Phone leads sales, but volume is relatively low.
 
-February: Tablet dominates with the highest monthly total (9 units).
+- February: Laptop dominates with the highest monthly total (11 units).
 
-March: Laptop is clearly the top performer (14 units), suggesting rising demand or promotions.
+- March: Laptop is clearly still the top performer (14 units), suggesting rising demand or promotions.
 
 This provides a clear snapshot of which product deserves priority in terms of stocking, marketing spend, and bundling.
 
