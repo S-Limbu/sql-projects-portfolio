@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Data Team needs to clean and standardize inconsistent product names (e.g., varied casing, extra spaces) that come from different suppliers. These inconsistencies prevent accurate reporting, grouping, and joining of datasets.
+The Data Team needs to **clean and standardize inconsistent product names** (e.g., varied casing, extra spaces) that come from different suppliers. These inconsistencies **prevent accurate reporting, grouping, and joining of datasets**.
 
 ---
 
@@ -54,7 +54,10 @@ What’s happening and why?
 | 5  | "tablet "  | tablet      |
 
 🔍 Business Insight
-Despite differences in formatting (spaces and casing), these product names refer to the same underlying items. Cleaned data enables accurate product grouping, supports better decision-making, and prevents duplicate listings in reports.
+
+- Despite differences in formatting (spaces and casing), these product names refer to the same underlying items.
+
+- Cleaned data enables accurate product grouping, supports better decision-making, and prevents duplicate listings in reports.
 
 🔑 Takeaway
 Cleaned and standardized product names make data consistent, joinable, and ready for trustworthy reporting.
