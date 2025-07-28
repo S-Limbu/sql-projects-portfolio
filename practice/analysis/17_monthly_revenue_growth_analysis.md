@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-The Finance Team wants to analyze monthly revenue trends to understand Month-over-Month (MoM) growth. This helps guide decisions related to sales forecasting, budgeting, and marketing investments.
+The Finance Team wants to **analyze monthly revenue trends** to understand Month-over-Month (MoM) growth. This helps **guide decisions related to sales forecasting, budgeting, and marketing investments**.
 
 ---
 
@@ -65,11 +65,18 @@ This formula returns the percentage change in revenue between months. The use of
 | 2024-01-01 | 300              | NULL            | NULL                 |
 | 2024-02-01 | 300              | 300             | 0.0                  |
 | 2024-03-01 | 550              | 300             | 83.33                |
-| ...        | ...              | ...             | ...                  |
-
+| 2024-04-01 | 1340              | 550             | -41.04               |
+| 2024-05-01 | 790              | 1340             | 83.33                |
+| 2024-06-01 | 1010              | 790             |27.85               |
+| 2024-07-01 | 400              | 1010             | -60.40                |
 
 🔍 Business Insight
-The business can now track revenue momentum easily. For example, if April shows a high spike, leadership might investigate campaign effectiveness or seasonality. Declines might prompt intervention in customer retention or sales.
+
+- The business can now track revenue momentum easily.
+
+- For example, if April shows a high spike, leadership might investigate campaign effectiveness or seasonality.
+
+- Declines might prompt intervention in customer retention or sales.
 
 🔑 Takeaway
 Month-over-month revenue tracking reveals how fast the business is growing or slowing, helping guide future actions and investment decisions.
