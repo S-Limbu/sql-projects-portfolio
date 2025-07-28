@@ -3,7 +3,7 @@
 ---
 
 ## 🧠 Business Scenario
-You're a Product Analyst at an e-commerce company. The Product Team wants to analyze how users progress through critical steps in the product journey:
+You're a Product Analyst at an e-commerce company. The Product Team wants to **analyze how users progress through critical steps in the product journey**:
 Visiting the website -> Signing up -> Making a purchase
 They need a quick snapshot of how many unique users complete each step in the funnel to identify drop-offs and conversion bottlenecks.
 
@@ -54,16 +54,17 @@ What’s happening and why?
 | event    | users |
 | -------- | ----- |
 | visit    | 19    |
-| signup   | 16    |
+| signup   | 14    |
 | purchase | 11    |
 
 
 🔍 Business Insight
+
 Out of 19 visitors:
 
-84% (16/19) signed up
+- 74% (14/19) signed up
 
-58% (11/19) went on to purchase
+- 58% (11/19) went on to purchase
 
 The most significant drop-off is between signup → purchase. This may indicate:
 
