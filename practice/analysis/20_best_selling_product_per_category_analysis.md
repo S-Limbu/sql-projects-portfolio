@@ -6,9 +6,9 @@
 You’re a Retail Analyst at a multi-category retail company.
 The leadership team wants to know:
 
-“What’s the highest-revenue product in each category?”
+**“What’s the highest-revenue product in each category?”**
 
-This helps them invest marketing dollars, manage inventory, and align promotions with top performers.
+This helps them **invest marketing dollars, manage inventory, and align promotions** with top performers.
 
 ---
 
@@ -64,15 +64,15 @@ WHERE rnk = 1;
 
 What’s happening and why?
 
-product_revenue CTE
+- product_revenue CTE
 → Calculates total revenue (quantity × price) for each product grouped by category.
 This shows how much each product earned in its category.
 
-ranked CTE
+- ranked CTE
 → Assigns a ranking within each category based on descending revenue using RANK().
 The product with rnk = 1 is the top-selling one for that category.
 
-Final SELECT
+- Final SELECT
 → Filters to include only the top product per category, giving a clean, actionable list.
 
 📊 Sample Output
@@ -81,8 +81,22 @@ Final SELECT
 | ----------- | ------------- | ------- |
 | Clothing    | Hoodie        | 1900    |
 | Electronics | Laptop        | 2500    |
-| Stationary  | Pens          | 480     |
 | Food        | Chips         | 110     |
+| Stationary  | Pens          | 480     |
+
+🔍 Business Insight
+
+- This analysis pinpoints the top-revenue-generating product in each category, giving decision-makers a focused list of proven performers. The insight can be directly applied across departments:
+
+- Merchandising teams can prioritize these products for front-page features, bundles, or seasonal campaigns to amplify impact.
+
+- Inventory & Operations can optimize stock levels, ensuring the best-sellers don’t run out, while avoiding overstock of lower performers.
+
+- Marketing can double down on high-ROI products through category-specific ads or email campaigns tailored to popular items.
+
+- Finance & Leadership can use this as a benchmark to assess category health and revenue concentration risks.
+
+- By continuously monitoring the top performers in each category, the business ensures it is leaning into what’s working, fueling profitability, and making strategic trade-offs with confidence.
 
 🔑 Takeaway
 This insight gives your team a razor-sharp view of:
