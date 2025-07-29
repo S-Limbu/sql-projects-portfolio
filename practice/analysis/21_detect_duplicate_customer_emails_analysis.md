@@ -59,30 +59,31 @@ HAVING COUNT(*) > 1
 
 📊 Sample Output
 
-| email                                 | email\_count |
-| ------------------------------------- | ------------ |
-| [d@example.com](mailto:d@example.com) | 2            |
-| [b@example.com](mailto:b@example.com) | 2            |
-| [s@example.com](mailto:s@example.com) | 3            |
-| [r@example.com](mailto:r@example.com) | 4            |
-| [c@example.com](mailto:c@example.com) | 2            |
+| email           | email\_count |
+| --------------- | ------------ |
+| [d@example.com] | 2            |
+| [r@example.com] | 4            |
+| [c@example.com] | 2            |
+| [b@example.com] | 2            |
+| [s@example.com] | 3            |
 
- Business Insight
-This analysis uncovers specific email addresses that are duplicated across your user base. From a business perspective:
+🔍 Business Insight
 
-These users are likely to receive redundant communications, which can harm brand trust.
+- This analysis uncovers specific email addresses that are duplicated across user base. From a business perspective:
 
-A high duplication rate may indicate flaws in frontend validation, backend merging logic, or CRM sync rules.
+- These users are likely to receive redundant communications, which can harm brand trust.
 
-Identifying and cleaning duplicates improves your ability to:
+- A high duplication rate may indicate flaws in frontend validation, backend merging logic, or CRM sync rules.
 
-Accurately measure unique customer metrics (LTV, churn, engagement).
+- Identifying and cleaning duplicates improves your ability to:
 
-Maintain healthy segmentation for retargeting or onboarding flows.
+- Accurately measure unique customer metrics (LTV, churn, engagement).
 
-Eliminate wasted spend on duplicated ad impressions or email sends.
+- Maintain healthy segmentation for retargeting or onboarding flows.
 
-🔍 Insight: The email r@example.com appears 4 times, showing a high-risk data inconsistency.
+- Eliminate wasted spend on duplicated ad impressions or email sends.
+
+- The email r@example.com appears 4 times, showing a high-risk data inconsistency.
 That could signal misuse or a need for deduplication logic before the next marketing cycle.
 
 🔑 Takeaway
@@ -96,4 +97,4 @@ Avoid over-communicating with the same customer
 
 Detect potential abuse (e.g., same user signing up repeatedly)
 
-🛠 It's a critical step for CRM integrity, accurate personalization, and efficient marketing execution.
+It's a critical step for CRM integrity, accurate personalization, and efficient marketing execution.
