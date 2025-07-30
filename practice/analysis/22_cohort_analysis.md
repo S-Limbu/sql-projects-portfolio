@@ -4,15 +4,9 @@
 
 ## 🧠 Problem / Business Scenario
 You work with the Product team of a digital product or app.
-They want to track how many users remain active over time based on the month they signed up — this is called Cohort Analysis.
+They want to track **how many users remain active over time** based on the month they signed up — this is called **Cohort Analysis**.
 
-The goal is to understand:
-
-How long new users stay engaged
-
-If product changes improve retention
-
-When and why users drop off after joining
+The goal is to understand: How long new users stay engaged, If product changes improve retention and When and why users drop off after joining
 
 ## 💡 Why This Matters
 
@@ -72,28 +66,26 @@ COUNT(DISTINCT user_id)
 
 This results in a matrix-style view where you can track how many users from each cohort month remained active in future months.
 
-📈 Business Insight
+📊 Sample Output
 This cohort analysis gives the product team visibility into retention behavior over time. For example:
 
-| Cohort Month | Active Month | Users Active |
+| Cohort Month | Active Month | Active Users |
 | ------------ | ------------ | ------------ |
 | Jan 2024     | Jan 2024     | 2            |
 | Jan 2024     | Feb 2024     | 1            |
 | Feb 2024     | Feb 2024     | 4            |
 | Feb 2024     | Mar 2024     | 1            |
-| Mar 2024     | Mar 2024     | 4            |
+| Mar 2024     | Mar 2024     | 3            |
 | Mar 2024     | Apr 2024     | 1            |
 | Mar 2024     | May 2024     | 2            |
 
-From this we can see:
+🔍 Business Insight
 
-Jan cohort drops from 2 to 1 user by the second month
+- Jan cohort drops from 2 to 1 user by the second month
 
-Feb cohort had strong engagement at first (4 users), but only 1 stuck around the next month
+- Feb cohort had strong engagement at first (4 users), but only 1 stuck around the next month
 
-Mar cohort has slightly better second/third-month retention
-
-🧠 Insight: If the goal is to improve long-term engagement, you can now:
+- Mar cohort has slightly better second/third-month retention
 
 Identify where users fall off
 
@@ -104,5 +96,3 @@ A/B test onboarding flows or product changes
 🔑 Takeaway
 This analysis highlights how sticky your product is over time.
 It allows product managers to track the health of each cohort, and adjust strategy to improve lifetime value and user satisfaction.
-
-Let me know if you’d like to visualize this as a retention heatmap or cohort matrix next.
